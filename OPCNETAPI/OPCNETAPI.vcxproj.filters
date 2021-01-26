@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\OPC">
+      <UniqueIdentifier>{adebfd7b-304c-4b82-895f-f1618619b194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OPC">
+      <UniqueIdentifier>{f64d2751-e37f-4eac-996d-648b68dd1b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OPC\Enum">
+      <UniqueIdentifier>{6b51489f-e3f6-451f-b37c-9c1217d1d719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OPC\Enum">
+      <UniqueIdentifier>{34ce3156-656c-4439-a9b7-531e38d8d5e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OPC\HDA">
+      <UniqueIdentifier>{dcc6435b-bffc-447c-b485-a0e94fa94793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OPC\HDA">
+      <UniqueIdentifier>{513b7cf4-f9cd-4733-9921-b39d0d97965a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\COM">
+      <UniqueIdentifier>{3716af0b-cf59-4d3f-9b99-544c21f12a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\COM">
+      <UniqueIdentifier>{f1762662-1dce-483b-8269-23a82aafe830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OPC\DA">
+      <UniqueIdentifier>{56255da8-b020-4231-9797-abf54a80338d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OPC\DA">
+      <UniqueIdentifier>{d5db2b74-fa4d-4866-8180-f5384f1f9fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{b729f913-adf9-43d3-aeb4-a8b36e4c2141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{d53dfdb6-bec5-4488-913a-4dca4e5fbac5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enumerator.h">
+      <Filter>Header Files\OPC\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="Specification.h">
+      <Filter>Header Files\OPC</Filter>
+    </ClInclude>
+    <ClInclude Include="HDAServer.h">
+      <Filter>Header Files\OPC\HDA</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDefinition.h">
+      <Filter>Header Files\OPC</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadResult.h">
+      <Filter>Header Files\OPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Qualities.h">
+      <Filter>Header Files\OPC</Filter>
+    </ClInclude>
+    <ClInclude Include="ComBase.h">
+      <Filter>Header Files\COM</Filter>
+    </ClInclude>
+    <ClInclude Include="ComUtils.h">
+      <Filter>Header Files\COM</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files\OPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>Header Files\OPC</Filter>
+    </ClInclude>
+    <ClInclude Include="DAServer.h">
+      <Filter>Header Files\OPC\DA</Filter>
+    </ClInclude>
+    <ClInclude Include="HDAReadResult.h">
+      <Filter>Header Files\OPC\HDA</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowseType.h">
+      <Filter>Header Files\OPC</Filter>
+    </ClInclude>
+    <ClInclude Include="OPCShutdown.h">
+      <Filter>Header Files\OPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Subscription.h">
+      <Filter>Header Files\OPC\DA</Filter>
+    </ClInclude>
+    <ClInclude Include="URL.h">
+      <Filter>Header Files\OPC</Filter>
+    </ClInclude>
+    <ClInclude Include="DAReadResult.h">
+      <Filter>Header Files\OPC\DA</Filter>
+    </ClInclude>
+    <ClInclude Include="DAResult.h">
+      <Filter>Header Files\OPC\DA</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemValueDefinition.h">
+      <Filter>Header Files\OPC\DA</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSources.h">
+      <Filter>Header Files\OPC\DA</Filter>
+    </ClInclude>
+    <ClInclude Include="Conversions.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Aggregate.h">
+      <Filter>Header Files\OPC\HDA</Filter>
+    </ClInclude>
+    <ClInclude Include="HistorianStatus.h">
+      <Filter>Header Files\OPC\HDA</Filter>
+    </ClInclude>
+    <ClInclude Include="HDAResult.h">
+      <Filter>Header Files\OPC\HDA</Filter>
+    </ClInclude>
+    <ClInclude Include="HDADataCallback.h">
+      <Filter>Header Files\OPC\HDA</Filter>
+    </ClInclude>
+    <ClInclude Include="DADataCallback.h">
+      <Filter>Header Files\OPC\DA</Filter>
+    </ClInclude>
+    <ClInclude Include="AggregateItem.h">
+      <Filter>Header Files\OPC\HDA</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enumerator.cpp">
+      <Filter>Source Files\OPC\Enum</Filter>
+    </ClCompile>
+    <ClCompile Include="HDAServer.cpp">
+      <Filter>Source Files\OPC\HDA</Filter>
+    </ClCompile>
+    <ClCompile Include="ComBase.cpp">
+      <Filter>Source Files\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="ComUtils.cpp">
+      <Filter>Source Files\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="DAServer.cpp">
+      <Filter>Source Files\OPC\DA</Filter>
+    </ClCompile>
+    <ClCompile Include="Subscription.cpp">
+      <Filter>Source Files\OPC\DA</Filter>
+    </ClCompile>
+    <ClCompile Include="Conversions.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DADataCallback.cpp">
+      <Filter>Source Files\OPC\DA</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

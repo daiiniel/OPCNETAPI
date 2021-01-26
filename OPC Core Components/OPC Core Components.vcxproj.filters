@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="opc_ae.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opcae_er.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opcaedef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpcBatchDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpcBatchError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpcBatchProps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opcbc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpcCmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpcCmdError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opccomn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opcda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpcDx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpcDxError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpcEnum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opcerror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpcErrSec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opchda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpcHda_Error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opcSec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="opcua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="opc_ae.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+    <Midl Include="opcbc.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+    <Midl Include="OpcCmd.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+    <Midl Include="opccomn.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+    <Midl Include="opcda.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+    <Midl Include="OpcDx.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+    <Midl Include="OpcEnum.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+    <Midl Include="opchda.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+    <Midl Include="opcSec.idl">
+      <Filter>Source Files</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="opc_ae_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opcbc_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpcCmd_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opccomn_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opcda_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpcDx_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpcEnum_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opchda_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="opcSec_i.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
